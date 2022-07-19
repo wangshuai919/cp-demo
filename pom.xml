@@ -21,7 +21,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.tencent.tars</groupId>
+			<artifactId>tars-spring-boot-starter</artifactId>
+			<version>1.7.2</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -35,6 +43,29 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>com.tencent.tars</groupId>-->
+<!--				<artifactId>tars-maven-plugin</artifactId>-->
+<!--				<version>2.0.0</version>-->
+<!--				<configuration>-->
+<!--					<tars2JavaConfig>-->
+<!--						&lt;!&ndash; tars文件位置 &ndash;&gt;-->
+<!--						<tarsFiles>-->
+<!--							<tarsFile>${basedir}/src/main/resources/hello.tars</tarsFile>-->
+<!--						</tarsFiles>-->
+<!--						&lt;!&ndash; 源文件编码 &ndash;&gt;-->
+<!--						<tarsFileCharset>UTF-8</tarsFileCharset>-->
+<!--						&lt;!&ndash; 生成服务端代码 &ndash;&gt;-->
+<!--						<servant>true</servant>-->
+<!--						&lt;!&ndash; 生成源代码编码 &ndash;&gt;-->
+<!--						<charset>UTF-8</charset>-->
+<!--						&lt;!&ndash; 生成的源代码目录 &ndash;&gt;-->
+<!--						<srcPath>${basedir}/src/main/java</srcPath>-->
+<!--						&lt;!&ndash; 生成源代码包前缀 &ndash;&gt;-->
+<!--						<packagePrefixName>com.qq.tars.quickstart.server.</packagePrefixName>-->
+<!--					</tars2JavaConfig>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 

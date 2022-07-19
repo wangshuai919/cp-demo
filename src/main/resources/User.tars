@@ -1,0 +1,7 @@
+module APP
+{
+    interface Hello
+    {
+        string hello(int id, string name);
+    };
+}
