@@ -1,7 +1,7 @@
-module APP
+module TestApp
 {
-    interface Hello
-    {
-        string hello(int id, string name);
-    };
-}
+	interface Hello
+	{
+	    string hello(int no, string name);
+	};
+};
